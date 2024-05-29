@@ -1,0 +1,4 @@
+Script started on 2024-05-29 19:02:30-04:00 [TERM="xterm-256color" TTY="/dev/pts/144" COLUMNS="98" LINES="23"]
+\[]633;A\](dassl) (base) \[\e]0;\u@\h: \w\a\]\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]$ \[]633;B\]e exit
+
+Script done on 2024-05-29 19:03:24-04:00 [COMMAND_EXIT_CODE="0"]

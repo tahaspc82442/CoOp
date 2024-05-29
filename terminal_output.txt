@@ -1,0 +1,408 @@
+    1  source ~/.bashrc
+    2  conda
+    3  man ls
+    4  ls
+    5  file Anaconda3-2023.09-0-Linux-x86_64.sh 
+    6  ls -l
+    7  python
+    8  conda create --name seqmlenv
+    9  conda activate seqmlenv
+   10  ls
+   11  cd SeqML/SIMPLE/
+   12  ls
+   13  pip install -r requirements.txt
+   14  torch --version
+   15  python
+   16  nvcc --version
+   17  nvidia-smi
+   18  conda install pytorch==1.8.1 torchvision==0.9.1 torchaudio==0.8.1 cudatoolkit=11.3 -c pytorch -c conda-forge
+   19  conda install pytorch==1.8.1 torchvision==0.9.1 torchaudio==0.8.1 cudatoolkit=10.2 -c pytorch
+   20  cat requiremnts.txt
+   21  cat requirements.txt 
+   22  pip show tensorflow
+   23  nano requiremets.txt
+   24  nano requirements.txt
+   25  pip install -r requirements.txt
+   26  python -m miscellaneous.domainbed.scripts.download --data_dir=./miscellaneous/domainbed/data
+   27  CUDA_VISIBLE_DEVICES=0 python spec.py --pretrain_model_list modelpool_list/sample_list.txt --dataset domainbed --domainbed_dataset PACS --domainbed_test_env 0
+   28  CUDA_VISIBLE_DEVICES=0 python spec.py --pretrain_model_list modelpool_list/sample_list.txt --dataset domainbed --domainbed_dataset PACS 
+   29  ls
+   30  python
+   31  conda list
+   32  python
+   33  conda activate py3
+   34  python
+   35  jupyter
+   36  jupyter notebook
+   37  conda install cudatoolkit
+   38  conda cleanup
+   39  ls
+   40  nvcc --version
+   41  nvidia-smi
+   42  conda deactivate
+   43  nvcc
+   44  cd ..
+   45  ls
+   46  cd ..
+   47  ls
+   48  man ls
+   49  ls -all
+   50  cd biplab
+   51  ls -all
+   52  cd taha
+   53  ls -all
+   54  ls /usr/local/cuda
+   55  ls /usr/local
+   56  pwd
+   57  nvcc
+   58  ls /usr/local
+   59  ls /usr/local/cuda-12.2
+   60  ls /usr/local/cuda-12.2 -all
+   61  ls /usr/local/
+   62  nvcc ---version
+   63  cd /usr
+   64  ls
+   65  cd local
+   66  ls
+   67  cd cuda-12.2
+   68  ls
+   69  cd nvlm
+   70  cd nvml\
+   71  cd nvml
+   72  ls
+   73  cd example
+   74  ls
+   75  cd ..
+   76  ls
+   77  sudo find /usr/local/cuda-12.2 -name nvcc -type f
+   78  sudo /usr/bin/find /usr/local/cuda-12.2 -name nvcc -type f
+   79  ls
+   80  cd ..
+   81  ls
+   82  cd bin
+   83  ls
+   84  ls -a
+   85  cd ..
+   86  ls
+   87  cd src
+   88  ls
+   89  cd ..
+   90  cd lib
+   91  ls
+   92  c ..
+   93  cd ..
+   94  ls pwd
+   95  pwd
+   96  ls
+   97  cd ets
+   98  ls etc
+   99  ls share
+  100  ls games
+  101  ls include
+  102  cd ..
+  103  ls
+  104  cd ..
+  105  ls
+  106  ls home
+  107  cd dgxadmin
+  108  ls dgxadmin
+  109  cd testuser
+  110  cd testuser2
+  111  pwd
+  112  ls
+  113  cd usr
+  114  ls
+  115  cd ~/
+  116  pwd
+  117  source .bashrc
+  118  nvcc --version
+  119  pws
+  120  pwd
+  121  ubuntu --version
+  122  lsb-release -a
+  123  cat /etc/lsb-release
+  124  wget https://developer.download.nvidia.com/compute/cuda/12.2.0/local_installers/cuda_12.2.0_535.54.03_linux.run
+  125  chmod +x cuda_*.run
+  126  ped
+  127  pwd
+  128  ./cuda_*.run --silent --toolkit --installpath=/raid/biplab/taha/cuda
+  129  nvcc --version
+  130  nvidia -smi
+  131  nvidai --smi
+  132  nvidia-smi
+  133  echo 'export PATH=/raid/biplab/taha/cuda/bin${PATH:+:${PATH}}' >> ~/.bashrc
+  134  echo 'export LD_LIBRARY_PATH=/raid/biplab/taha/cuda/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}' >> ~/.bashrc
+  135  nvidia-smi
+  136  nvcc --version
+  137  source bashrc
+  138  source .bashrc
+  139  nvcc --version
+  140  conda activate py3
+  141  nvcc --version
+  142  jupyter notebook
+  143  python -m ipykernel install --user --name py3  --display-name "py3env"
+  144  conda install ipykernel
+  145  python -m ipykernel install --user --name py3  --display-name "py3env"
+  146  jupyter notebook
+  147  conda activate py3
+  148  jupyter notebook
+  149  conda activate py3
+  150  nvcc --version
+  151  jupyter notebook
+  152  curl -fsSL https://ollama.com/install.sh | sh
+  153  docker --version
+  154  ls
+  155  cd ~/
+  156  ls
+  157  python
+  158  docker run hello-world
+  159  docker run --help
+  160  docker ps
+  161  jupyter notebook
+  162  conda py3
+  163  conda activate py3
+  164  jupyter notebook
+  165  nvcc --version
+  166  nvidia-smi
+  167  ls
+  168  ls cuda
+  169  nvcc --version
+  170  uname -r
+  171  *cat /etc/release
+  172  cat /etc/release
+  173  lsb release -a
+  174  lsb_release -a
+  175  python3
+  176  nvcc --version
+  177  lspci
+  178  nvidia smi
+  179  nvidia-smi
+  180  conda
+  181  conda env list
+  182  ls
+  183  git clone https://github.com/KaiyangZhou/Dassl.pytorch.git
+  184  conda create -y -n dassl python=3.8
+  185  conda activate dassl
+  186  cd Dassl.pytorch/
+  187  ls
+  188  conda install pytorch torchvision cudatoolkit=12.2 -c pytorch
+  189  conda deactive
+  190  conda deactivate
+  191  cd ..
+  192  ls
+  193  wget https://developer.download.nvidia.com/compute/cuda/12.1.0/local_installers/cuda_12.1.0_530.30.02_linux.run
+  194  chmod +x cuda_12.1.0_530.30.02_linux.run
+  195  ls
+  196  cd cuda
+  197  ls
+  198  cd ..
+  199  mkdir cuda-12.1
+  200  ls
+  201  sudo ./cuda_12.1.0_530.30.02_linux.run --silent --toolkit --toolkitpath=./cuda-12.1
+  202  pwd
+  203  sudo ./cuda_12.1.0_530.30.02_linux.run --silent --toolkit --toolkitpath=/raid/biplab/taha/cuda-12.1
+  204  ls
+  205  cd cuda-12.1/
+  206  ls
+  207  pwd
+  208  nano ~/.bashrc
+  209  source bashrc
+  210  source ~/.bashrc
+  211  nvidia-smi
+  212  nvcc --version
+  213  which nvcc
+  214  conda activate dassl
+  215  cd ..
+  216  c.s
+  217  ls
+  218  cd Dassl.pytorch/
+  219  ls
+  220  conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
+  221  python
+  222  pip install tqdm
+  223  pip install scikit-learn
+  224  pip install gdown
+  225  pip install tabulate
+  226  pip install yacs
+  227  pip install future
+  228  pip install scipy
+  229  pip install ftfy
+  230  pip install regex
+  231  pip install tb-nightly
+  232  pip install -r requirements.txt
+  233  python setup.py develop
+  234  cd ..
+  235  git clone https://github.com/KaiyangZhou/CoOp?tab=readme-ov-file
+  236  git clone https://github.com/KaiyangZhou/CoOp
+  237  pwd
+  238  unzip PatternNet.zip 
+  239  ls
+  240  cd PatternNet
+  241  ls
+  242  cd ..
+  243  python getinfo.py 
+  244  pws
+  245  pwd
+  246  bash scripts/coop/main.sh PatternNet rn50_ep50 end 16 1 False
+  247  cd CoOp/
+  248  bash scripts/coop/main.sh PatternNet rn50_ep50 end 16 1 False
+  249  pwd
+  250  cd ..
+  251  cd Dassl.pytorch/
+  252  cd dassl/utils/
+  253  ls
+  254  python test.py
+  255  cd ..
+  256  cd CoOp/
+  257  LS
+  258  ls
+  259  bash scripts/coop/main.sh PatternNet rn50_ep50 end 16 1 False
+  260  bash scripts/coop/main.sh imagenet  rn50_ep5
+  261  scripts/coop/main.sh caltech101 rn50_ep50 end 16 1 False
+  262  bash scripts/coop/main.sh PatternNet rn50_ep50 end 16 1 False
+  263  conda activate dassl
+  264  ls
+  265  cd CoOp/
+  266  cd scripts/
+  267  ls
+  268  cd co
+  269  cd coop/
+  270  ls
+  271  ./main.sh PatternNet rn50_ep50 end 16 1 False
+  272  bash ./main.sh PatternNet rn50_ep50 end 16 1 False
+  273  cd ..
+  274  bash scripts/coop/main.sh PatternNet rn50_ep50 end 16 1 False
+  275  ls
+  276  cd datasets/
+  277  ls
+  278  python patternnet.py 
+  279  cd ..
+  280  bash scripts/coop/main.sh PatternNet rn50_ep50 end 16 1 False
+  281  cd /raid/biplab/taha/Dassl.pytorch/dassl/data/datasets/build.py
+  282  cd /raid/biplab/taha/Dassl.pytorch/dassl/data/datasets/
+  283  ls
+  284  python build.py 
+  285  cd ..
+  286  cd CoOp/
+  287  ;s
+  288  ls
+  289  bash scripts/coop/main.sh PatternNet rn50_ep50 end 16 1 False
+  290  bash scripts/coop/main.sh PatternNet vit_b16  end 16 1 False
+  291  wget https://www.geeksforgeeks.org/wget-command-in-linux-unix/
+  292  ping 192.168.2.200
+  293  ping -c 3 comptia.org
+  294  curl --location -trusted -u 200010045:d49323cc752294447e6c71aef5d22af1 "https://internet-sso.iitb.ac.in/l
+  295  ogin.php" > /dev/null
+  296  curl --location --user 20001:dc8b77f6db881f314e2221b21ef995eb "https://internet-sso.iitb.ac.in/login.php" > /dev/null
+  297  ping 192.168.2.200
+  298  bash scripts/coop/main.sh PatternNet vit_b16  end 16 1 False
+  299  nvitop
+  300  pip3 install --upgrade nvitop
+  301  cd ..
+  302  pip install --upgrade nvitop
+  303  pip install nvitop
+  304  curl --location --user 200010045:d49323cc752294447e6c71aef5d22af1 "https://internet-sso.iitb.ac.in/login.php" > /dev/null
+  305  pip install nvitop
+  306  conda deactivate
+  307  pip install nvitop
+  308  pip install panda
+  309  pip install matplotlib
+  310  pip install pandas
+  311  pip install nvitop
+  312  git clone --depth=1 https://github.com/XuehaiPan/nvitop.git.
+  313  git clone https://github.com/google-research/diffstride
+  314  git clone
+  315  git clone diffstride
+  316  https://github.com/google-research/diffstride
+  317  git clone https://github.com/google-research/diffstride
+  318  curl --location --user 200010045:d49323cc752294447e6c71aef5d22af1 "https://internet-sso.iitb.ac.in/login.php" > /dev/null
+  319  https://github.com/google-research/diffstride
+  320  git clone https://github.com/google-research/diffstride
+  321  git clone https://github.com/mainaksingha01/APPLeNet
+  322  ls dev/null/
+  323  ls /dev/null
+  324  cd /dev/null
+  325  cd /dev/null/
+  326  ls
+  327  git clone https://github.com/mainaksingha01/APPLeNet
+  328  nvitop
+  329  curl --location-trusted -u 200010045:430ca99c8e7d8ec1aaf8d1073803f5fd "https://internetsso.iitb.ac.in/login.php" > /dev/null
+  330  curl --location-trusted -u 200010045:430ca99c8e7d8ec1aaf8d1073803f5fd "https://internet-sso.iitb.ac.in/login.php" > /dev/null
+  331  git clone https://github.com/mainaksingha01/APPLeNet
+  332  cd CoOp/
+  333  cd scripts/
+  334  ls
+  335  cd ..
+  336  bash scripts/coop/main.sh PatternNet vit_b16  end 16 1 False
+  337  conda activate dassl
+  338  bash scripts/coop/main.sh PatternNet vit_b16  end 16 1 False
+  339  cd ..
+  340  conda deactivate
+  341  pip install nvitop
+  342  nvitop
+  343  conda activatw dassl
+  344  conda activate dassl
+  345  cd CoOp/
+  346  bash scripts/coop/main.sh PatternNet vit_b16  end 16 1 False
+  347  nvitop
+  348  ls\
+  349  ls
+  350  cd CoOp/json/
+  351  python jsonanalyser.py 
+  352  clear
+  353  python jsonanalyser.py 
+  354  clear
+  355  python jsonanalyser.py 
+  356  clear
+  357  python jsonanalyser.py 
+  358  clear
+  359  python jsonanalyser.py 
+  360  clear
+  361  python jsonanalyser.py 
+  362  clear
+  363  python jsoncreater.py
+  364  conda activate dassl
+  365  import pytorch
+  366  python
+  367  nvitop
+  368  python jsoncreater.py 
+  369  conda activate dassl
+  370  cd CoOp/
+  371  bash scripts/coop/main.sh PatternNet vit_b16  end 16 1 False
+  372  CUDA_VISIBLE_DEVICES=4 bash scripts/coop/main.sh PatternNet vit_b16 end 16 1 False
+  373  CUDA_VISIBLE_DEVICES=4 bash scripts/coop/main.sh PatternNet rn50_ep50  end 16 1 False
+  374  CUDA_VISIBLE_DEVICES=4 bash scripts/coop/main.sh PatternNet rn50_ctxv1  end 16 1 False
+  375  CUDA_VISIBLE_DEVICES=4 bash scripts/coop/main.sh PatternNet rn101  end 16 1 False
+  376  CUDA_VISIBLE_DEVICES=4 bash scripts/coop/main.sh PatternNet vit_b32  end 4 1 False
+  377  CUDA_VISIBLE_DEVICES=4 bash scripts/coop/main.sh PatternNet vit_b32  end 4 4 False
+  378  CUDA_VISIBLE_DEVICES=4 bash scripts/coop/main.sh PatternNet vit_b32  end 4 2 False
+  379  CUDA_VISIBLE_DEVICES=4 bash scripts/coop/main.sh PatternNet vit_b32  end 4 1 False
+  380  ls
+  381  unzip UCMerced.zip 
+  382  pwd
+  383  conda activate dassl
+  384  CUDA_VISIBLE_DEVICES=4 bash scripts/coop/main.sh UCMerced  vit_b32  end 4 1 False
+  385  cd CoOp/
+  386  CUDA_VISIBLE_DEVICES=4 bash scripts/coop/main.sh UCMerced  vit_b32  end 4 1 False
+  387  CUDA_VISIBLE_DEVICES=4 bash scripts/coop/main.sh Ucmerced  vit_b32  end 4 1 False
+  388  cd CoOp/
+  389  CUDA_VISIBLE_DEVICES=4 bash scripts/coop/main.sh Ucmerced  vit_b32  end 4 1 False
+  390  bash base2new_train.sh Ucmerced  1
+  391  cd scripts/
+  392* bashs base2new_train.sh Ucmerced  1
+  393  cd coop
+  394  bash base2new_train.sh Ucmerced  1
+  395  ls
+  396  bash base2new_train.sh Ucmerced  1
+  397  cd ..
+  398  bash srcipts/coop/base2new_train.sh Ucmerced 1
+  399  bash sricpts/coop/base2new_train.sh Ucmerced 1
+  400  bash scripts/coop/base2new_train.sh Ucmerced 1
+  401  CUDA_VISIBLE_DEVICES=4 bash scripts/coop/main.sh Ucmerced  vit_b32  end 4 1 False
+  402  CUDA_VISIBLE_DEVICES=2 bash scripts/coop/main.sh Ucmerced  vit_b32  end 4 1 False
+  403  CUDA_VISIBLE_DEVICES=4 bash scripts/coop/base2new_train.sh Ucmerced 1
+  404  CUDA_VISIBLE_DEVICES=2 bash scripts/coop/main.sh Ucmerced  vit_b16_c4  end 4 16 False
+  405  CUDA_VISIBLE_DEVICES=1 bash scripts/coop/main.sh Ucmerced  vit_b16_c4  end 4 16 False
+  406  CUDA_VISIBLE_DEVICES=1 bash scripts/coop/eval.sh Ucmerced
+  407  script session.txt
+  408  history > terminal_output.txt

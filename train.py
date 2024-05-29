@@ -6,6 +6,7 @@ from dassl.config import get_cfg_default
 from dassl.engine import build_trainer
 
 # custom
+import datasets.patternnet
 import datasets.oxford_pets
 import datasets.oxford_flowers
 import datasets.fgvc_aircraft
@@ -17,7 +18,7 @@ import datasets.sun397
 import datasets.caltech101
 import datasets.ucf101
 import datasets.imagenet
-
+import datasets.ucmerced
 import datasets.imagenet_sketch
 import datasets.imagenetv2
 import datasets.imagenet_a
@@ -26,6 +27,7 @@ import datasets.imagenet_r
 import trainers.coop
 import trainers.cocoop
 import trainers.zsclip
+
 
 
 def print_args(args, cfg):
@@ -88,7 +90,7 @@ def extend_cfg(cfg):
     from yacs.config import CfgNode as CN
 
     cfg.TRAINER.COOP = CN()
-    cfg.TRAINER.COOP.N_CTX = 16  # number of context vectors
+    cfg.TRAINER.COOP.N_CTX = 4  # number of context vectors
     cfg.TRAINER.COOP.CSC = False  # class-specific context
     cfg.TRAINER.COOP.CTX_INIT = ""  # initialization words
     cfg.TRAINER.COOP.PREC = "fp16"  # fp16, fp32, amp
@@ -99,7 +101,7 @@ def extend_cfg(cfg):
     cfg.TRAINER.COCOOP.CTX_INIT = ""  # initialization words
     cfg.TRAINER.COCOOP.PREC = "fp16"  # fp16, fp32, amp
 
-    cfg.DATASET.SUBSAMPLE_CLASSES = "all"  # all, base or new
+    cfg.DATASET.SUBSAMPLE_CLASSES = "base"  # all, base or new
 
 
 def setup_cfg(args):

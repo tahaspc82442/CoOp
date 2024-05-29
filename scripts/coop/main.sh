@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # custom config
-DATA=/path/to/datasets
+DATA=/raid/biplab/taha
 TRAINER=CoOp
 
 DATASET=$1
