@@ -6,6 +6,7 @@ This repo contains the codebase of a series of research projects focused on adap
 * [Learning to Prompt for Vision-Language Models](https://arxiv.org/abs/2109.01134), IJCV, 2022.
 
 ## Updates
+- **30.10.2024**: Scripts to train and evaluate CoCoOp added
 
 - **30.10.2024**: Added support for training and evaluation on PatternNet and UC Merced Datasets 
 
